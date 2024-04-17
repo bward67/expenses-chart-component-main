@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <card class="card container">
+      <header class="header">
+        <div class="header-left">
+          <p>My balance</p>
+          <div class="heading-price">$921.48</div>
+        </div>
+        <div class="header-right">
+          <img src="images/logo.svg" alt="" />
+        </div>
+      </header>
+      <div class="spending-box">
+        <h1 class="container">Spending - Last 7 days</h1>
+        <div class="chart container">
+          <div class="chart-bars">
+            <div class="individual-chart-bar">
+              <div>
+                <div class="chart-bar mon"></div>
+                <p class="day" data-day="mon">mon</p>
+              </div>
+              <p class="pop-up-box" id="mon">$17.45</p>
+            </div>
+
+            <div class="individual-chart-bar">
+              <div>
+                <div class="chart-bar tue"></div>
+                <p class="day" data-day="tue">tue</p>
+              </div>
+              <p class="pop-up-box" id="tue">$34.91</p>
+            </div>
+
+            <div class="individual-chart-bar">
+              <div>
+                <div class="chart-bar wed"></div>
+                <p class="day" data-day="wed">wed</p>
+              </div>
+              <p class="pop-up-box" id="wed">$52.36</p>
+            </div>
+            <div class="individual-chart-bar">
+              <div>
+                <div class="chart-bar thu"></div>
+                <p class="day" data-day="thu">thu</p>
+              </div>
+              <p class="pop-up-box" id="thu">$31.07</p>
+            </div>
+            <div class="individual-chart-bar">
+              <div>
+                <div class="chart-bar fri"></div>
+                <p class="day" data-day="fri">fri</p>
+              </div>
+              <p class="pop-up-box" id="fri">$23.39</p>
+            </div>
+            <div class="individual-chart-bar">
+              <div>
+                <div class="chart-bar sat"></div>
+                <p class="day" data-day="sat">sat</p>
+              </div>
+              <p class="pop-up-box" id="sat">$43.28</p>
+            </div>
+            <div class="individual-chart-bar">
+              <div>
+                <div class="chart-bar sun"></div>
+                <p class="day" data-day="sun">sun</p>
+              </div>
+              <p class="pop-up-box" id="sun">$25.48</p>
+            </div>
+          </div>
+
+          <footer class="footer">
+            <div class="footer-left">
+              <p>Total this month</p>
+              <div class="footer-price">$478.33</div>
+            </div>
+            <div class="footer-right">
+              <p class="percentage-change">+2.4%</p>
+              <p>from last month</p>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </card>
+  </body>
+  <script src="app.js"></script>
+</html>
