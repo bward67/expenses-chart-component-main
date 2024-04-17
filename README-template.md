@@ -1,3 +1,0 @@
-I am happy with some of this. I used event listeners with mouseover and mouseout to get the hover effect for the amounts on the day charts and I got the current day to be cyan.
-
-But overall not so proud of my JS code as I just did the basics and hard-coded the amounts which makes me cringe as I know I can do better. And I have been sitting here trying to work it out. But my head has become a bit muddled with it all - however I know I can do it with a bit of concentration and review of what I have been learning. And I definately want to dynamically size the bars on the chart as well. So I decided to post this now and go back to work and make it better!
